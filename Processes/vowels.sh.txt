@@ -1,0 +1,7 @@
+#!/bin/bash
+
+word=$1
+
+vowels=`echo $word | grep -o [aeiouAEIOU] | wc -l`
+
+echo $vowels
